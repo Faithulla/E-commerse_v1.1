@@ -1,0 +1,10 @@
+body{
+  background-color: #fff;
+  display: flex;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}

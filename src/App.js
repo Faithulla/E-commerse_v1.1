@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-
-const App = () => {
-  return ( <>
-    Sup
-  </> );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {  }
+  }
+  render() { 
+    return ( <div>
+    </div> );
+  }
 }
  
 export default App;
