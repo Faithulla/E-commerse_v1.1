@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Home from './Pages/Home/Home';
+import Header from './Components/header/header';
+import Bar from './Pages/Bar/Bar';
 
 class App extends Component {
   constructor(props) {
@@ -8,7 +9,8 @@ class App extends Component {
   }
   render() { 
     return ( <div>
-    <Home/>
+    <Header/>
+    <Bar/>
     </div> );
   }
 }

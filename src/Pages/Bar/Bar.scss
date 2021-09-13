@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    .left-top{
+        .title-logo{
+            font-family: 'Allison', cursive;
+            font-size: 50px;
+        }
+    }
+}

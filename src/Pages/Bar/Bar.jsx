@@ -1,7 +1,7 @@
 import React from 'react';
 
-
-class Home extends React.Component {
+import './Bar.scss'
+class Bar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -9,7 +9,7 @@ class Home extends React.Component {
     render() { 
         return ( <div className="container">
             <div className="left-top">
-                <div className="title-logo">Webify</div>
+                <div className="title-logo">Rayal</div>
             </div>
                 <div className="left-options">
                     <h3>Hoody</h3>
@@ -18,4 +18,4 @@ class Home extends React.Component {
     }
 }
  
-export default Home;
+export default Bar;
